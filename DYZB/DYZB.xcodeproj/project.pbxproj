@@ -99,6 +99,7 @@
 		00DB7C2821BE8A2F0005054C /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				00DB7C5A21BEA0610005054C /* Classes */,
 				00DB7C2921BE8A2F0005054C /* AppDelegate.swift */,
 				00DB7C2B21BE8A2F0005054C /* ViewController.swift */,
 				00DB7C2D21BE8A2F0005054C /* Main.storyboard */,
@@ -126,6 +127,61 @@
 				00DB7C4E21BE8A2F0005054C /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		00DB7C5A21BEA0610005054C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00DB7C5E21BEA0610005054C /* Main */,
+				00DB7C5C21BEA0610005054C /* Home */,
+				00DB7C5D21BEA0610005054C /* Live */,
+				00DB7C5B21BEA0610005054C /* Follow */,
+				00DB7C5F21BEA0610005054C /* Profile */,
+				00DB7C6021BEA0610005054C /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00DB7C5B21BEA0610005054C /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		00DB7C5C21BEA0610005054C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00DB7C5D21BEA0610005054C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		00DB7C5E21BEA0610005054C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00DB7C5F21BEA0610005054C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		00DB7C6021BEA0610005054C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
